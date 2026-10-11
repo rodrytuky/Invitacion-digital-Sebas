@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es" class="bloqueado">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Baby Shower de Sebastian Antonio</title>
+<meta name="description" content="Estás invitado al baby shower de Domenico. Domingo 8 de noviembre de 2026, 2:30 p.m.">
+<meta property="og:title" content="Baby Shower de Domenico">
+<meta property="og:description" content="Un poco de miel está en camino. ¡Acompáñanos!">
+<meta property="og:image" content="assets/img/miniatura.jpg"><!-- para WhatsApp: usa la URL completa al publicar -->
+<meta name="theme-color" content="#fbe9a8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@600&family=Great+Vibes&family=Lora:ital,wght@0,600;1,600&family=Marcellus&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.intro{display:none}html.bloqueado,html.bloqueado body{overflow:auto;height:auto}</style></noscript>
+</head>
+<body>
+<div class="bandas" aria-hidden="true"></div>
+
+<!-- PANTALLA DE BIENVENIDA: SOBRE -->
+<section class="intro" id="intro" aria-label="Bienvenida a la invitación">
+  <div class="intro__tarjeta">
+    <img class="deco" style="--t:0;--l:0;--w:42cqw" src="assets/img/decoracion/panal-esquina.png" alt="">
+    <img class="deco" style="--t:0;--r:0;--w:60cqw" src="assets/img/decoracion/rama-colmena.png" alt="">
+    <div class="intro__lienzo">
+      <div class="intro__marco" aria-hidden="true"></div>
+      <img class="deco abeja" style="--t:13cqw;--l:47cqw;--w:6cqw" src="assets/img/abejas/abeja-1.png" alt="">
+      <img class="deco abeja" style="--t:17cqw;--l:51cqw;--w:6cqw" src="assets/img/abejas/abeja-1.png" alt="">
+      <p class="intro__baby">Baby</p>
+      <p class="intro__shower">Shower</p>
+      <p class="intro__nombre">Sebastian Antonio</p>
+      <img class="deco abeja" style="--t:88cqw;--l:1cqw;--w:17cqw" src="assets/img/abejas/abeja-2.png" alt="">
+      <img class="deco abeja espejo" style="--t:88cqw;--r:0;--w:17cqw" src="assets/img/abejas/abeja-2.png" alt="">
+      <img class="deco intro__pooh" style="--t:76cqw;--l:32cqw;--w:36cqw" src="assets/img/decoracion/pooh-sentado.png" alt="">
+      <div class="sobre" id="sobre" aria-hidden="true">
+        <span class="sobre__fondo"></span>
+        <span class="sobre__carta"></span>
+        <span class="sobre__frente"></span>
+        <span class="sobre__solapa"></span>
+        <span class="sobre__sello"><img src="assets/img/decoracion/sello-abeja.png" alt=""></span>
+      </div>
+      <button class="intro__aviso" id="btn-abrir" type="button">Dale click para ver la invitación</button>
+    </div>
+  </div>
+</section>
+
+<main class="pagina" id="invitacion" tabindex="-1">
+<div class="tarjeta">
+  <div class="marco" aria-hidden="true"></div>
+
+  <!-- PORTADA -->
+  <header class="hero">
+    <img class="deco" style="--t:0;--l:0;--w:36cqw" src="assets/img/decoracion/panal-esquina.png" alt="">
+    <img class="deco" style="--t:0;--r:0;--w:60cqw" src="assets/img/decoracion/rama-colmena.png" alt="">
+    <img class="deco abeja" style="--t:14cqw;--l:44cqw;--w:7cqw" src="assets/img/abejas/abeja-1.png" alt="">
+    <img class="deco abeja" style="--t:24cqw;--l:66cqw;--w:9cqw" src="assets/img/abejas/abeja-2.png" alt="">
+    <div class="hero__intro">
+      <p class="cap">Un poco de</p>
+      <p class="hero__miel">Miel</p>
+      <p class="cap">está en camino</p>
+    </div>
+    <img class="deco globos" style="--t:31cqw;--l:34cqw;--w:32cqw;z-index:3" src="assets/img/decoracion/pooh-globos.png" alt="">
+    <p class="hero__baby" aria-label="Baby"><span aria-hidden="true">BA</span><span aria-hidden="true">BY</span></p>
+    <p class="hero__sub">Mi baby shower</p>
+    <h1 class="hero__nombre">Sebastian Antonio</h1>
+    <img class="deco abeja" style="--t:100cqw;--r:3cqw;--w:10cqw" src="assets/img/abejas/abeja-1.png" alt="">
+  </header>
+
+  <!-- PAPÁS Y MENSAJE -->
+  <section class="papas">
+    <figure class="foto">
+      <img src="assets/img/fotos/foto-papas.png" alt="Pooh y las ecografías de Domenico">
+    </figure>
+    <p class="papas__rotulo">Mis papitos</p>
+    <p class="papas__nombres">Marco &amp; Paola</p>
+    <div class="mensaje">
+      <p>Entre miel y abrazos, nuestro pequeño osito está por llegar. Dios nos ha bendecido con una vida que, aún antes de conocerla, ya llena nuestros corazones de ternura e ilusión.</p>
+      <p>Acompáñanos a celebrar una espera tan dulce como la miel y llena de amor, y a dar gracias por este hermoso regalo.</p>
+      <p>¡Tu presencia hará este momento aún más especial!</p>
+    </div>
+  </section>
+
+  <!-- FECHA Y LUGAR (se rellenan desde CONFIG en script.js) -->
+  <section class="fecha">
+    <h2 class="titulo-d">Acompáñanos a celebrar el día</h2>
+    <p class="fecha__mes" id="f-mes">Octubre</p>
+    <div class="fecha__fila">
+      <span id="f-sem">Sábado</span>
+      <span class="fecha__num" id="f-dia">24</span>
+      <span id="f-hora">15:00 p.m.</span>
+    </div>
+    <p class="lugar__rotulo">Lugar del evento:</p>
+    <p class="lugar__nombre">Salón Abejitas</p>
+    <a class="btn-maps" id="btn-maps" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="100%" height="100%" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.500a2.500 2.500 0 0 1 0 5z"/></svg>
+      <span>Google Maps</span>
+    </a>
+  </section>
+
+  <!-- CUENTA REGRESIVA -->
+  <section class="cuenta">
+    <img class="deco" style="--t:0;--r:3cqw;--w:24cqw" src="assets/img/decoracion/tarros-miel.png" alt="">
+    <img class="deco abeja" style="--t:-4cqw;--r:3cqw;--w:10cqw" src="assets/img/abejas/abeja-2.png" alt="">
+    <p class="cuenta__t1">Cuenta</p>
+    <h2 class="cuenta__t2">Regresiva</h2>
+    <div class="reloj" role="timer" aria-label="Tiempo restante para el evento">
+      <div><b id="cd-d">00</b><small>Días</small></div><i>:</i>
+      <div><b id="cd-h">00</b><small>Horas</small></div><i>:</i>
+      <div><b id="cd-m">00</b><small>Minutos</small></div><i>:</i>
+      <div><b id="cd-s">00</b><small>Segundos</small></div>
+    </div>
+  </section>
+
+  <!-- CONFIRMACIÓN -->
+  <section class="rsvp">
+    <img class="deco" style="--t:0;--l:0;--w:45cqw" src="assets/img/decoracion/arbol-pooh.png" alt="">
+    <h2 class="rsvp__titulo">¿Confirmas tu <span>asistencia?</span></h2>
+    <form id="form-rsvp" novalidate>
+      <label class="campo-t" for="nombre">Escribe tu nombre</label>
+      <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" maxlength="80" required>
+      <fieldset>
+        <legend class="campo-t">¿Nos acompañarás?</legend>
+        <label class="opcion"><input type="radio" name="asistencia" value="Sí" required><span>¡Sí, no me lo perderé!</span></label>
+        <label class="opcion"><input type="radio" name="asistencia" value="No"><span>No podré asistir</span></label>
+      </fieldset>
+      <input class="trampa" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn-enviar" type="submit">Enviar confirmación</button>
+      <p class="estado" id="estado" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <!-- GUARDA LA FECHA -->
+  <section class="calsec">
+    <img class="deco abeja" style="--t:12cqw;--l:5cqw;--w:10cqw" src="assets/img/abejas/abeja-2.png" alt="">
+    <img class="deco abeja" style="--t:22cqw;--r:5cqw;--w:10cqw" src="assets/img/abejas/abeja-2.png" alt="">
+    <h2>¡Guarda la fecha!</h2>
+    <div class="cal">
+      <p class="cal__t" id="cal-t">24 octubre 2026</p>
+      <div class="cal__g" id="cal-g"></div>
+    </div>
+  </section>
+
+  <!-- DESPEDIDA -->
+  <footer class="final">
+    <img class="deco abeja" style="--t:-5cqw;--l:13cqw;--w:8cqw" src="assets/img/abejas/abeja-1.png" alt="">
+    <img class="deco abeja" style="--t:-5cqw;--r:13cqw;--w:8cqw" src="assets/img/abejas/abeja-1.png" alt="">
+    <p class="final__t">¡Te esperamos!</p>
+    <img class="deco"
+     style="--l:11cqw;--b:0;--w:50cqw; transform: scaleX(-1);"
+     src="assets/img/decoracion/pooh-final.gif"
+     alt="">
+    <img class="deco abeja" style="--b:40cqw;--r:3cqw;--w:9cqw" src="assets/img/abejas/abeja-1.png" alt="">
+    <div class="letrero">
+      <img data-opcional src="assets/img/decoracion/letrero-madera.png" alt="">
+    </div>
+  </footer>
+</div>
+</main>
+
+<audio id="musica" src="assets/audio/cancion.mp3" loop preload="auto"></audio>
+<button class="btn-musica" id="btn-musica" type="button" aria-label="Pausar música" aria-pressed="true" hidden>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 4V5L7 9H3z"/><path class="ondas" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/><path class="tachado" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M4 4l16 16"/></svg>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
