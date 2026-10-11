@@ -64,6 +64,11 @@ img{display:block;max-width:100%;height:auto}
 .fecha__num{font:600 15cqw/1 var(--f-n)!important;color:var(--dorado);font-feature-settings:'onum';padding:0 4cqw}
 .lugar__rotulo{font:600 4.6cqw var(--f-tx);text-transform:uppercase;margin-top:9cqw}
 .lugar__nombre{font:600 5.8cqw var(--f-tx);text-transform:uppercase;margin-top:4cqw}
+.lugar__detalle {
+    font: 600 3.8cqw var(--f-tx);
+    text-transform: uppercase;
+    margin-top: 4cqw;
+}
 .btn-maps{width:65cqw;display:flex;align-items:center;justify-content:center;gap:3cqw;height:9.5cqw;margin:6cqw 11cqw 0cqw 11cqw;
   background:var(--miel);border:.4cqw solid var(--dorado);border-radius:2.2cqw;color:var(--marron);text-decoration:none}
 .btn-maps svg{width:5.5cqw;height:5.5cqw}
